@@ -30,7 +30,7 @@ header a:hover {
 }
 
 .navbar {
-    width: 300px;
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,7 +54,7 @@ header a:hover {
     height: fit-content;
     padding: 40px 0;
     color: white;
-    background-image: url("/assets/6c recortada.png");
+    background-image: url("../assets/6c recortada.png");
     background-size: cover;
   }
   
@@ -89,7 +89,6 @@ header a:hover {
 .conteudo .opala69 {
     width: 450px;
     height: 250px;
-    
 }
 .conteudo .parte1, .parte2, .parte3{
     display: flex;
@@ -100,6 +99,7 @@ header a:hover {
 .parte1 .parte2{
     gap: 40px;
 }
+
 .conteudo .parte1 h4{
     width: 125px;
     height: 45px;
@@ -155,10 +155,112 @@ header a:hover {
     font-size: 40px;
     line-height: 48px;
 }
-.conteudo2 .parte3 {
-    gap: 200px;
-}
+
 
 /* FOOTER */
 
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+footer p {
+    color: rgb(206, 206, 206);
+    padding-top: 17px;
+    font-size: 12px;
+}
+
+footer .logo {
+    width: 200px;
+    height: 200px;
+}
+
+
+footer .container {
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+}
+
+footer .container #loguinho {
+    margin-right: 100px;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.links li {
+    margin-top: 6px;
+    margin-right: 400px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links ul {
+    width: 600px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.cima {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.baixo {
+    display: flex;
+    flex-direction: row;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo {
+    display: flex;
+    flex-direction: row;
+}
+
+.media img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:7px;
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.media h4 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+    cursor: default;
+    color: white;
+}
+
+footer .container .media b {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

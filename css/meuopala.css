@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    /* width: 100vw; */
+}
+
+header {
+    border-bottom: 10px solid black;
+    background-color: black;
+}
+
+header .container {
+    justify-content: space-between;
+    width: 80%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: rgb(255, 145, 0);
+    opacity: 0.7;
+}
+
+.navbar {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* BANNER */
+
+.banner {
+    height: fit-content;
+    padding: 40px 0;
+    color: white;
+    background-image: url("../assets/6c recortada.png");
+    background-size: cover;
+  }
+  
+.banner .container {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    font-size: 36px;
+}
+
+.banner .container span {
+    font-weight: 800;
+}
+
+/* CONTEUDO */
+
+
+.conteudo .container{
+    padding: 0 100px;
+    flex-direction: column;
+    border-bottom: 5px solid black;
+    background-color: #D9D9D9
+}
+
+.conteudo .opala69 {
+    width: 450px;
+    height: 250px;
+}
+.conteudo .parte1, .parte2, .parte3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.parte1 .parte2{
+    gap: 40px;
+}
+
+.conteudo .parte1 h4{
+    width: 125px;
+    height: 45px;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.conteudo .parte1 p{
+    width: 465px;
+    height: 300px;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.conteudo .parte2 .opalacoupe {
+    width: 450px;
+    height: 300px;
+}
+
+
+.conteudo .texto {
+    margin-bottom: 100px;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    color: rgb(206, 206, 206);
+    padding-top: 17px;
+    font-size: 12px;
+}
+
+footer .logo {
+    width: 200px;
+    height: 200px;
+}
+
+
+footer .container {
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+}
+
+footer .container #loguinho {
+    margin-right: 100px;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.links li {
+    margin-top: 6px;
+    margin-right: 400px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links ul {
+    width: 600px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.cima {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.baixo {
+    display: flex;
+    flex-direction: row;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo {
+    display: flex;
+    flex-direction: row;
+}
+
+.media img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:7px;
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.media h4 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+    cursor: default;
+    color: white;
+}
+
+footer .container .media b {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
