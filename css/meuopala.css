@@ -90,14 +90,10 @@ header a:hover {
     width: 450px;
     height: 250px;
 }
-.conteudo .parte1, .parte2, .parte3{
+.conteudo .parte1{
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-.parte1 .parte2{
-    gap: 40px;
 }
 
 .conteudo .parte1 h4{
@@ -119,19 +115,8 @@ header a:hover {
     font-size: 20px;
     line-height: 24px;
     color: #000000;
-    margin-bottom: 50px;
-}
-
-.conteudo .parte2 .opalacoupe {
-    width: 450px;
-    height: 300px;
-}
-
-
-.conteudo .texto {
     margin-bottom: 100px;
 }
-
 
 /* FOOTER */
 
