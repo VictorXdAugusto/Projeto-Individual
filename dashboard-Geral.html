@@ -13,6 +13,9 @@
 </head>
 
 <body>
+
+  
+
   <!-- Menu -->
   <div class="container">
     <aside class="menu">
@@ -34,37 +37,38 @@
           <ul>
               <li>
                   <select name="" id="sel_anos">
-                    <option value="">1968</option>
-                    <option value="">1969</option>
-                    <option value="">1970</option>
-                    <option value="">1971</option>
-                    <option value="">1972</option>
-                    <option value="">1973</option>
-                    <option value="">1974</option>
-                    <option value="">1975</option>
-                    <option value="">1976</option>
-                    <option value="">1977</option>
-                    <option value="">1978</option>
-                    <option value="">1979</option>
-                    <option value="">1980</option>
-                    <option value="">1981</option>
-                    <option value="">1982</option>
-                    <option value="">1983</option>
-                    <option value="">1984</option>
-                    <option value="">1985</option>
-                    <option value="">1986</option>
-                    <option value="">1987</option>
-                    <option value="">1988</option>
-                    <option value="">1989</option>
-                    <option value="">1990</option>
-                    <option value="">1991</option>
-                    <option value="">1992</option>
+                    <option value="">Escolha um ano...</option>
+                    <option value="1">1968</option>
+                    <option value="2">1969</option>
+                    <option value="3">1970</option>
+                    <option value="4">1971</option>
+                    <option value="5">1972</option>
+                    <option value="6">1973</option>
+                    <option value="7">1974</option>
+                    <option value="8">1975</option>
+                    <option value="9">1976</option>
+                    <option value="10">1977</option>
+                    <option value="11">1978</option>
+                    <option value="12">1979</option>
+                    <option value="13">1980</option>
+                    <option value="14">1981</option>
+                    <option value="15">1982</option>
+                    <option value="16">1983</option>
+                    <option value="17">1984</option>
+                    <option value="18">1985</option>
+                    <option value="19">1986</option>
+                    <option value="20">1987</option>
+                    <option value="21">1988</option>
+                    <option value="22">1989</option>
+                    <option value="23">1990</option>
+                    <option value="24">1991</option>
+                    <option value="25">1992</option>
                   </select>
               </li>
           </ul>
           <button onclick="pesquisar()">Pesquisar</button>
+          <div id="div_imagem"></div>
               </div>
-              <div id="div_imagem"></div>
           </div>
       </div>
   </div>
@@ -74,11 +78,15 @@
 
 <script>
 
-  var anos = []
+  function pesquisar() {
 
-  function login() {
+    var anos = Number(sel_anos.value)
 
-
+    if(anos == 1 || anos == 2 ||anos == 3 ||anos == 4) {
+        div_imagem.innerHTML = `<img src="./assets/opala69.png" alt="">`
+    }else if(anos == 5 || anos == 6 ||anos == 7 ||anos == 8) {
+        div_imagem.innerHTML = `<img src="./assets/opala69.png" alt="">`
+    }
 
   }
 
