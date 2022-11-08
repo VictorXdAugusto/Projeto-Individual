@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&family=Montserrat:wght@400;600&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(58, 58, 58);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    /* creates padding around scroll thumb */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+img {
+    height: 170px;
+    width: 170px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    margin-top: 30px;
+    height: 60%;
+    width: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.caixa-form ul {
+    margin-top: 30px;
+    height: 50px;
+    width: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    height: 100px;
+    text-decoration: none;
+}
+
+
+main {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9vh;
+
+}
+
+main h1 {
+    padding: 50px 0 0 73px;
+    color: #110000;
+}
+
+.menu {
+    background-color: black;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.caixa-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.caixa select {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.caixa option {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 2%;
+    width: 800px;
+    height: 600px;
+}
+
+.caixa button {
+    width: 125px;
+    height: 25px;
+    border-radius: 5px;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    background-color: #c77700;
+    border: none;
+    color: white;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.caixa h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
